@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript To-do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8ec3829ef9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <navbar class="navbar-title">
+        <h1>MEDIUM</h1>
+        <a href="#">
+            <p>WELCOME</p>
+        </a>
+    </navbar>
+
+    <div class="banner">
+        <div class="banner-image">
+            <img src="assets/banner.jpg" width="100%" alt="banner">
+        </div>
+        <h1 id="day"></h1>
+        <h2 id="month_date_year"></h2>
+        <h2 id="time"></h2>
+    </div>
+
+
+    <div class="todoList">
+        <div class="content">
+            <form class="add">
+              <input type="text" name="add">
+              <div class="input-buttons">
+                <a href="#" class="add-todo">
+                  <i class="fas fa-plus add"></i>
+                </a>
+              </div>
+            </form>
+            <ul class="todos">
+                <li>
+                  
+                      <span class="check"></span>
+                      
+                    
+                  </li>
+                  
+              
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    
+<script src="app.js"></script>  
+</body>
+</html>
